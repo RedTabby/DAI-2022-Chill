@@ -1,13 +1,13 @@
-package ch.heigvd.dai.chill.domain.wasadigi;
+package ch.heigvd.dai.chill.domain.RedTabby;
 
 import ch.heigvd.dai.chill.domain.IProduct;
 
 import java.math.BigDecimal;
 
-public class PunkIPA implements IProduct {
+public class Chouffe implements IProduct {
 
-  public final static String NAME = "Punk IPA";
-  public final static BigDecimal PRICE = new BigDecimal(4.2);
+  public final static String NAME = "Chouffe";
+  public final static BigDecimal PRICE = new BigDecimal(4.0);
 
   @Override
   public String getName() {
